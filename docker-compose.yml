@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  api_careercrisp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: api-careercrisp
+    restart: unless-stopped
+    ports:
+      - 9988:3000
