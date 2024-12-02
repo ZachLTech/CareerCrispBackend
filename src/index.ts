@@ -45,7 +45,7 @@ function saturatePrompt(prompt: string, bio: string){
 async function generateJSON(bio: string, roastIntensity: string) {
   try{
     // Reads proper prompt file depending on subject and sets a subject variable equal to the filepath without .txt extension
-    let prompt = fs.readFileSync((`./prompts/${roastIntensity.toLowerCase}.txt`), {"encoding": "utf-8"});
+    let prompt = fs.readFileSync(("./prompts/" + roastIntensity + ".txt"), {"encoding": "utf-8"});
     // function call to make prompt actually good with the user inputted values
     prompt = saturatePrompt(prompt, bio);
     // Init Gemini w/ api key from .env and setting AI model
@@ -67,6 +67,7 @@ async function generateJSON(bio: string, roastIntensity: string) {
     return ({
       "success": "false",
       "roast": "there was an error - skibidi (My brain farted)",
+      "tips": "error",
       "error": message,
       // To not break frontend parsing while also telling the user there's been an error
     });

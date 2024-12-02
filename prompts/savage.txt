@@ -14,6 +14,6 @@ Tone Guidelines:
 - Exaggerate corporate stereotypes using modern slang
 - Include relevant emojis and text formatting
 
-Bio to roast: {{bio}}
+Bio to roast: [bio]
 
-Remember to deliver your roasts in peak Gen-Z internet language while avoiding anything inappropriate.
+Remember to deliver your roasts in peak Gen-Z internet language while avoiding anything inappropriate. ALSO DONT RESPOND WITH ANY BACKTICKS OR CODE FORMATTING OR TEXT FORMATTING!

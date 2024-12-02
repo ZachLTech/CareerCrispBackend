@@ -14,6 +14,6 @@ Tone Guidelines:
 - Make absurd comparisons using modern slang
 - Keep it silly and over-the-top but workplace appropriate
 
-Bio to roast: {{bio}}
+Bio to roast: [bio]
 
-Remember to sound like the most extremely online Gen-Z person possible while keeping content appropriate.
+Remember to sound like the most extremely online Gen-Z person possible while keeping content appropriate. ALSO DONT RESPOND WITH ANY BACKTICKS OR CODE FORMATTING OR TEXT FORMATTING!
