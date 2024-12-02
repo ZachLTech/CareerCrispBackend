@@ -7,4 +7,4 @@ services:
     container_name: api-careercrisp
     restart: unless-stopped
     ports:
-      - 9988:3000
+      - 9298:3000
